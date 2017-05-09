@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="New" sequence="1" value="1"/>
+                <element label="Open" sequence="2" value="2"/>
+                <element label="Work in Progress" sequence="3" value="3"/>
+                <element label="Closed Complete" sequence="4" value="4"/>
+                <element label="Closed Incomplete" sequence="5" value="5"/>
+                <element label="Closed Skipped" sequence="6" value="6"/>
+            </choice>
+        </element>
+    </element>
+</database>
